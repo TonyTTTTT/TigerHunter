@@ -7,7 +7,6 @@ theme2 = "\nPattern=Windows 預設\nMultimonBackgrounds=0\nPicturePosition=4\nWa
 theme3 = "\n[AppEvents\\Schemes\\Apps\\.Default\\Minimize]\nDefaultValue="
 theme4 = "\n[AppEvents\\Schemes\\Apps\\.Default\\Close]\nDefaultValue=D:\\example.wav\n[Control Panel\\Cursors.A]\nDefaultValue=Windows 預設\n[Control Panel\\Cursors.W]\nDefaultValue=Windows +mBCKLQ-\n[Theme.A]\nDisplayName=未儲存的佈景主題\n[Theme.W]\nDisplayName=+ZypRMltYdoRPSGZvTjuYTA-"
 
-D:\\example.wav
 rate = 44100
 content = [[-1073, -1072],
 [-1032, -1034],
