@@ -2,8 +2,12 @@ import numpy as np
 from scipy.io.wavfile import write
 import os
 
-theme = "[Theme]\n; Windows - IDS_THEME_DISPLAYNAME_AERO\nDisplayName=未儲存的佈景主題\nThemeId={167E01B4-A3EC-49AD-85BC-3701666AF138}\n; Computer - SHIDI_SERVER\n[CLSID\\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\\DefaultIcon]\nDefaultValue=%SystemRoot%\\System32\\imageres.dll,-109\n; UsersFiles - SHIDI_USERFILES\n[CLSID\\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\\DefaultIcon]\nDefaultValue=%SystemRoot%\\System32\\imageres.dll,-123\n; Network - SHIDI_MYNETWORK\n[CLSID\\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\\DefaultIcon]\nDefaultValue=%SystemRoot%\\System32\\imageres.dll,-25\n; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER\n[CLSID\\{645FF040-5081-101B-9F08-00AA002F954E}\\DefaultIcon]\nFull=%SystemRoot%\\System32\\imageres.dll,-54\nEmpty=%SystemRoot%\\System32\\imageres.dll,-55\n[Control Panel\\Cursors]\nAppStarting=%SystemRoot%\\cursors\\aero_working.ani\nArrow=%SystemRoot%\\cursors\\aero_arrow.cur\nCrosshair=\nHand=%SystemRoot%\\cursors\\aero_link.cur\nHelp=%SystemRoot%\\cursors\\aero_helpsel.cur\nIBeam=\nNo=%SystemRoot%\\cursors\\aero_unavail.cur\nNWPen=%SystemRoot%\\cursors\\aero_pen.cur\nSizeAll=%SystemRoot%\\cursors\\aero_move.cur\nSizeNESW=%SystemRoot%\\cursors\\aero_nesw.cur\nSizeNS=%SystemRoot%\\cursors\\aero_ns.cur\nSizeNWSE=%SystemRoot%\\cursors\\aero_nwse.cur\nSizeWE=%SystemRoot%\\cursors\\aero_ew.cur\nUpArrow=%SystemRoot%\\cursors\\aero_up.cur\nWait=%SystemRoot%\\cursors\\aero_busy.ani\nDefaultValue=Windows 預設\n[Control Panel\\Desktop]\nWallpaper=\nPattern=Windows 預設\nMultimonBackgrounds=0\nPicturePosition=4\nWallpaperWriteTime=131620139916685458\n[VisualStyles]\nPath=%SystemRoot%\\resources\\themes\\Aero\\Aero.msstyles\nColorStyle=NormalColor\nSize=NormalSize\nAutoColorization=0\nColorizationColor=0XC40078D7\nSystemMode=Light\nAppMode=Light\nVisualStyleVersion=10\n[boot]\nSCRNSAVE.EXE=Windows 預設\n[MasterThemeSelector]\nMTSM=RJSPBS\n[Sounds]\n; IDS_SCHEME_DEFAULT\nSchemeName=test\n[AppEvents\\Schemes\\Apps\\.Default\\Maximize]\nDefaultValue=D:\\example.wav\n[AppEvents\\Schemes\\Apps\\.Default\\Minimize]\nDefaultValue=D:\\example.wav\n[AppEvents\\Schemes\\Apps\\.Default\\Close]\nDefaultValue=D:\\example.wav\n[Control Panel\\Cursors.A]\nDefaultValue=Windows 預設\n[Control Panel\\Cursors.W]\nDefaultValue=Windows +mBCKLQ-\n[Theme.A]\nDisplayName=未儲存的佈景主題\n[Theme.W]\nDisplayName=+ZypRMltYdoRPSGZvTjuYTA-"
+theme1 = "[Theme]\n; Windows - IDS_THEME_DISPLAYNAME_AERO\nDisplayName=未儲存的佈景主題\nThemeId={167E01B4-A3EC-49AD-85BC-3701666AF138}\n; Computer - SHIDI_SERVER\n[CLSID\\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\\DefaultIcon]\nDefaultValue=%SystemRoot%\\System32\\imageres.dll,-109\n; UsersFiles - SHIDI_USERFILES\n[CLSID\\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\\DefaultIcon]\nDefaultValue=%SystemRoot%\\System32\\imageres.dll,-123\n; Network - SHIDI_MYNETWORK\n[CLSID\\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\\DefaultIcon]\nDefaultValue=%SystemRoot%\\System32\\imageres.dll,-25\n; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER\n[CLSID\\{645FF040-5081-101B-9F08-00AA002F954E}\\DefaultIcon]\nFull=%SystemRoot%\\System32\\imageres.dll,-54\nEmpty=%SystemRoot%\\System32\\imageres.dll,-55\n[Control Panel\\Cursors]\nAppStarting=%SystemRoot%\\cursors\\aero_working.ani\nArrow=%SystemRoot%\\cursors\\aero_arrow.cur\nCrosshair=\nHand=%SystemRoot%\\cursors\\aero_link.cur\nHelp=%SystemRoot%\\cursors\\aero_helpsel.cur\nIBeam=\nNo=%SystemRoot%\\cursors\\aero_unavail.cur\nNWPen=%SystemRoot%\\cursors\\aero_pen.cur\nSizeAll=%SystemRoot%\\cursors\\aero_move.cur\nSizeNESW=%SystemRoot%\\cursors\\aero_nesw.cur\nSizeNS=%SystemRoot%\\cursors\\aero_ns.cur\nSizeNWSE=%SystemRoot%\\cursors\\aero_nwse.cur\nSizeWE=%SystemRoot%\\cursors\\aero_ew.cur\nUpArrow=%SystemRoot%\\cursors\\aero_up.cur\nWait=%SystemRoot%\\cursors\\aero_busy.ani\nDefaultValue=Windows 預設\n[Control Panel\\Desktop]\nWallpaper="
+theme2 = "\nPattern=Windows 預設\nMultimonBackgrounds=0\nPicturePosition=4\nWallpaperWriteTime=131620139916685458\n[VisualStyles]\nPath=%SystemRoot%\\resources\\themes\\Aero\\Aero.msstyles\nColorStyle=NormalColor\nSize=NormalSize\nAutoColorization=0\nColorizationColor=0XC40078D7\nSystemMode=Light\nAppMode=Light\nVisualStyleVersion=10\n[boot]\nSCRNSAVE.EXE=Windows 預設\n[MasterThemeSelector]\nMTSM=RJSPBS\n[Sounds]\n; IDS_SCHEME_DEFAULT\nSchemeName=test\n[AppEvents\\Schemes\\Apps\\.Default\\Maximize]\nDefaultValue="
+theme3 = "\n[AppEvents\\Schemes\\Apps\\.Default\\Minimize]\nDefaultValue="
+theme4 = "\n[AppEvents\\Schemes\\Apps\\.Default\\Close]\nDefaultValue=D:\\example.wav\n[Control Panel\\Cursors.A]\nDefaultValue=Windows 預設\n[Control Panel\\Cursors.W]\nDefaultValue=Windows +mBCKLQ-\n[Theme.A]\nDisplayName=未儲存的佈景主題\n[Theme.W]\nDisplayName=+ZypRMltYdoRPSGZvTjuYTA-"
 
+D:\\example.wav
 rate = 44100
 content = [[-1073, -1072],
 [-1032, -1034],
@@ -74397,37 +74401,37 @@ content = np.array(content)
 
 try:
     f = open('D:\\qq.theme', 'w')
-    f.write(theme)
+    f.write(theme1, theme2, 'D:\\qq.wav', theme3, 'D:\\qq.wav', theme4)
     f.close()
-    write("D:\\example.wav", rate, content.astype(np.int16))
+    write("D:\\qq.wav", rate, content.astype(np.int16))
 except:
     print('D not available!')
 try:
     f = open('A:\\qq.theme', 'w')
-    f.write(theme)
+    f.write(f.write(theme1, theme2, 'A:\\qq.wav', theme3, 'A:\\qq.wav', theme4))
     f.close()
-    write("A:\\example.wav", rate, content.astype(np.int16))
+    write("A:\\qq.wav", rate, content.astype(np.int16))
 except:
     print('A not available!')
 try:
     f = open('B:\\qq.theme', 'w')
-    f.write(theme)
+    f.write(theme1, theme2, 'B:\\qq.wav', theme3, 'B:\\qq.wav', theme4)
     f.close()
-    write("B:\\example.wav", rate, content.astype(np.int16))
+    write("B:\\qq.wav", rate, content.astype(np.int16))
 except:
     print('B not available!')
 try:
     f = open('E:\\qq.theme', 'w')
-    f.write(theme)
+    f.write(f.write(theme1, theme2, 'E:\\qq.wav', theme3, 'E:\\qq.wav', theme4))
     f.close()
-    write("E:\\example.wav", rate, content.astype(np.int16))
+    write("E:\\qq.wav", rate, content.astype(np.int16))
 except:
     print('E not available!')
 try:
     f = open('F:\\qq.theme', 'w')
-    f.write(theme)
+    f.write(f.write(theme1, theme2, 'F:\\qq.wav', theme3, 'F:\\qq.wav', theme4))
     f.close()
-    write("F:\\example.wav", rate, content.astype(np.int16))
+    write("F:\\qq.wav", rate, content.astype(np.int16))
 except:
     print('F not available!')
     
