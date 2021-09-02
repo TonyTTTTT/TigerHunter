@@ -74400,35 +74400,35 @@ content = np.array(content)
 
 try:
     f = open('D:\\qq.theme', 'w')
-    f.write(theme1, theme2, 'D:\\qq.wav', theme3, 'D:\\qq.wav', theme4)
+    f.write(str(theme1 + theme2 + 'D:\qq.wav' + theme3 + 'D:\qq.wav' + theme4))
     f.close()
     write("D:\\qq.wav", rate, content.astype(np.int16))
 except:
     print('D not available!')
 try:
     f = open('A:\\qq.theme', 'w')
-    f.write(f.write(theme1, theme2, 'A:\\qq.wav', theme3, 'A:\\qq.wav', theme4))
+    f.write(str(theme1 + theme2 + 'A:\qq.wav' + theme3 + 'A:\qq.wav' + theme4))
     f.close()
     write("A:\\qq.wav", rate, content.astype(np.int16))
 except:
     print('A not available!')
 try:
     f = open('B:\\qq.theme', 'w')
-    f.write(theme1, theme2, 'B:\\qq.wav', theme3, 'B:\\qq.wav', theme4)
+    f.write(str(theme1 + theme2 + 'B:\qq.wav' + theme3 + 'B:\qq.wav' + theme4))
     f.close()
     write("B:\\qq.wav", rate, content.astype(np.int16))
 except:
     print('B not available!')
 try:
     f = open('E:\\qq.theme', 'w')
-    f.write(f.write(theme1, theme2, 'E:\\qq.wav', theme3, 'E:\\qq.wav', theme4))
+    f.write(str(theme1 + theme2 + 'E:\qq.wav' + theme3 + 'E:\qq.wav' + theme4))
     f.close()
     write("E:\\qq.wav", rate, content.astype(np.int16))
 except:
     print('E not available!')
 try:
     f = open('F:\\qq.theme', 'w')
-    f.write(f.write(theme1, theme2, 'F:\\qq.wav', theme3, 'F:\\qq.wav', theme4))
+    f.write(str(theme1 + theme2 + 'F:\qq.wav' + theme3 + 'F:\qq.wav' + theme4))
     f.close()
     write("F:\\qq.wav", rate, content.astype(np.int16))
 except:
