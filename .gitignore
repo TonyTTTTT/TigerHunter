@@ -2,13 +2,3 @@
 *__pycache__
 build
 dist
-*.wav
-*.cpp
-*.exe
-*.png
-*.o
-*.theme
-*.txt
-*.project
-*.spec
-*.aup3

@@ -21,7 +21,7 @@ plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.show()
 
-f = open('cant_move.txt', 'w')
+f = open('sound.txt', 'w')
 f.write(str(samplerate)+'\n')
 f.write('[')
 for i in range(data.shape[0]):
