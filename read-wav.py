@@ -7,7 +7,7 @@ Created on Thu Sep  2 00:32:29 2021
 from scipy.io import wavfile
 import scipy.io
 
-samplerate, data = wavfile.read('example.wav')
+samplerate, data = wavfile.read('cant_move.wav')
 print(f"number of channels = {data.shape[1]}")
 length = data.shape[0] / samplerate
 print(f"length = {length}s")
@@ -20,3 +20,11 @@ plt.legend()
 plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.show()
+
+f = open('cant_move.txt', 'w')
+f.write(str(samplerate)+'\n')
+f.write('[')
+for i in range(data.shape[0]):
+    f.write('[{}, {}],\n'.format(data[i][0], data[i][1]))
+    
+f.close()
