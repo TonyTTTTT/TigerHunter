@@ -8,5 +8,5 @@ TigerHunter is a grayware that can change the Windows10 theme(including changing
 - Copy them into *change-theme.py*
 - Run the command bellow to generate the .exe from *change-theme.py*
 ```sh
-pyinstaller -w -F  change-theme.py
+pyinstaller -w -F  change-theme.py --icon=TigerHunter.ico --uac-admin
 ```
