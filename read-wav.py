@@ -7,7 +7,7 @@ Created on Thu Sep  2 00:32:29 2021
 from scipy.io import wavfile
 import scipy.io
 
-samplerate, data = wavfile.read('cant_move.wav')
+samplerate, data = wavfile.read('sound.wav')
 print(f"number of channels = {data.shape[1]}")
 length = data.shape[0] / samplerate
 print(f"length = {length}s")
